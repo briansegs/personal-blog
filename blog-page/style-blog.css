@@ -1,0 +1,115 @@
+/**
+* Blog
+*/
+
+/* Header Items */
+
+.header {
+	opacity: 1;
+	background-image: url("../images/background1.jpg");
+	background-color: white;
+	background-attachment: fixed;
+	background-position: bottom 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.navbar-fixed {
+	position: static;
+}
+
+
+.header-items {
+	margin: 0 auto;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.icons-wrap {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	margin: 25px;
+	margin-bottom: 40px;
+}
+
+
+/* Article Content */
+
+.article-header {
+	margin: 0 auto;
+	margin-top: 4rem;
+	width: 90%;
+}
+
+
+.date {
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	color: #b3b3b1 ;
+}
+
+
+.article-header h2 {
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	padding-bottom: 10px;
+}
+
+
+.article-header figure {
+	position: relative;
+}
+
+
+.article-header figure img {
+	width: 100%;
+}
+
+
+.article {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 70%;
+	padding-bottom: 3rem;
+	border-bottom: 1px solid lightgray;
+}
+
+
+.article figure img {
+	max-width: 80%;
+}
+
+
+.article figure figcaption p {
+	font-size: medium;
+	margin-top: 5px;
+}
+
+
+.article p {
+	font-size: large;
+}
+
+
+/* Signature */
+
+.sig .avatar-img img {
+	max-width: 100px;
+	min-width: 60px;
+	width: 15%;
+}
+
+
+.sig figure figcaption p{
+  font-size: medium;
+}
+

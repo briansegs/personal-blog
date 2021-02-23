@@ -1,0 +1,60 @@
+/**
+* Navigation Bar
+*/
+
+nav .brand-logo {
+  font-size: 1rem;
+}
+
+
+.brand-logo img {
+  max-width: 32px;
+  width: 14%;
+  transform: scaleX(-1);
+}
+
+
+@media only screen and (min-width: 317px) {
+  .brand-logo img {
+    max-width: 60px;
+    min-width: 50px;
+    width: 15%;
+  }
+}
+
+
+.navbar-fixed {
+  width: 100%;
+  line-height: 56px;
+  z-index: 997;
+  position: fixed;
+  padding-top: 10px;
+}
+
+
+nav ul {
+  margin: 0;
+}
+
+
+nav ul li {
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  float: left;
+  list-style-type: none;
+}
+
+
+nav ul a {
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  color: rgb(255, 255, 255);
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+
+nav ul a:hover {
+  color: rgb(147, 203, 255);
+}
+
